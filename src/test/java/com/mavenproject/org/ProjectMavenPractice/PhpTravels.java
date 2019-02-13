@@ -52,7 +52,7 @@ public class PhpTravels
 	public void closebrowserMethod()
 	{
 
-		System.out.println("quit browser");
+		System.out.println("browser");
 		driver.quit();
 	}
 }
