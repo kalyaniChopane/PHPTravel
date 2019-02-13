@@ -51,6 +51,7 @@ public class PhpTravels
 	@AfterTest
 	public void closebrowserMethod()
 	{
+
 		System.out.println("quit browser");
 		driver.quit();
 	}
